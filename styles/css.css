@@ -1,0 +1,286 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Cairo', sans-serif;
+}
+.list{
+    margin: 50px 103px 0 103px;
+}
+.nav-bar li{
+    display: inline-block;
+    overflow: auto;
+    position: relative;
+}
+.nav-bar li a{
+    text-decoration: none;
+}
+.li1{
+    float: left;
+    z-index: 1;
+    font-weight: 700;
+    font-size: 27px;
+}
+.li2, .li3, .li4{
+    float: right;
+    z-index: 1;
+    margin-right: 25px;
+    font-size: larger;
+    font-weight: 700;
+}
+.li1 a, .li2 a, .li3 a{
+    color:#fff ;
+}
+.li1 a:hover, .li2 a:hover, .li3 a:hover{
+    color: darkblue;
+}
+/* main section*/
+.main{
+    position: absolute;
+    top:0;
+}
+.main-content{
+    width: 50%;
+    height:50%;
+    background-color: transparent;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% ,-50%);
+    text-align: center;
+}
+.title-1{
+    font-size: 50px;
+    text-transform: capitalize;
+    color: #fff;
+}
+.intro{
+    line-height: 39px;
+    text-transform: capitalize;
+    color: #fff;
+    font-size: 17px;
+}
+.by{
+    color: #fff;
+}
+.name{
+    color: blue; 
+    text-transform: uppercase; 
+    font-size: 14px;
+}
+/* introduction-section */
+.container-intro{
+    width: 100%;
+    height: 421px;
+    position: absolute;
+    margin-top: 1055px;
+    overflow: auto;
+    padding-top: 9px;
+}
+.intro-img{
+    display: inline;
+    padding: 0 105px;
+}
+.content-intro{
+    float: right;
+    margin-right: 69px;
+}
+.title-intro{
+    color: cornflowerblue;
+    line-height: 75px;
+}
+.content-intro ul{
+    list-style: none;
+    line-height: 29px;
+}
+.content-intro ul li p{
+    font-size: large;
+    font-family: 'Cairo', sans-serif;;
+}
+.content-intro ul li p a:hover{
+    color: red;
+    cursor: pointer;
+}
+.btn-intro{
+    width: 112px;
+    height: 34px;
+    border-radius: 6px;
+    font-size: 17px;
+    border: none;
+    text-transform: capitalize;
+    background-color: rgb(13, 110, 253);
+    color: #fff;
+    margin-top: 18px;
+}
+.btn-intro:hover{
+    cursor: pointer;
+    background-color: rgb(97, 142, 210);
+}
+/* container-work-show */
+.container-work-show{
+    width: 100%;
+    height: 295px;
+    position: absolute;
+    margin-top: 1530px;
+    background: url(../images/sss.jpg);
+    padding-left: 5%;
+    padding-top: 64px;
+}
+.first-work, .second-work, .third-work{
+    width: 30%;
+    float: left;
+    text-align: center;
+}
+.title-first-work,.title-second-work,.title-third-work{
+    line-height: 50px;
+    color: #fff;
+}
+.link-first-work,.link-second-work,.link-third-work{
+    line-height: 30px;
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: 600;
+    text-decoration: none;
+    color: rgb(13, 110, 253);
+}
+.content-first-work,.content-second-work,.content-third-work{
+    line-height: 1.5;
+}
+.link-first-work:hover,.link-second-work:hover,.link-third-work:hover{
+    color: blue;
+}
+/* container-our work */
+.container-our-work{
+    width: 100%;
+    height: 503px;
+    position: absolute;
+    margin-top: 1950px;
+}
+.title-our-work{
+    text-align: center;
+}
+.title-first-our-work{
+    color: cornflowerblue;
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 75px;
+    text-transform: capitalize;
+}
+.content-one-our-work,.content-second-our-work{
+    line-height: 27.5px;
+    letter-spacing: 1.2px;
+}
+.card-our-work{
+    margin-top: 22px;
+}
+.cards{
+    position: relative;
+    margin: auto;
+    width: 90%;
+    height: 350px;
+    margin-left: auto;
+    padding-left: 0.98%;
+}
+.card-one,.card-two,.card-three,.card-four,.card-five{
+    position: absolute;
+    width: 18%;
+    height: 100%;
+}
+.card-one{
+    background: url(../images/gallery-tn-01.jpg);
+    background-size: cover;
+}
+.card-two{
+    background: url(../images/gallery-tn-02.jpg);
+    background-size: cover;
+    margin-left: 20%;
+}
+.card-three{
+    background: url(../images/gallery-tn-03.jpg);
+    background-size: cover;
+    margin-left: 40%;
+}
+.card-four{
+    background: url(../images/gallery-tn-04.jpg);
+    background-size: cover;
+    margin-left: 60%;
+}
+.card-five{
+    background: url(../images/gallery-tn-05.jpg);
+    background-size: cover;
+    margin-left: 80%;
+}
+.card-one:hover,.card-two:hover,.card-three:hover,.card-four:hover,.card-five:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+/* container-contact-us */
+.container-contact-us{
+    background-image: url(../images/the-town-bg-03.jpg);
+    width: 100%;
+    height: 70vh;
+    position: absolute;
+    margin-top: 2610px;
+    margin-bottom: 70px;
+}
+.title-contact-us{
+    width: 90%;
+    margin: auto;
+}
+.container-contact-us h1{
+    margin-left: 94px;
+    color: floralwhite;
+    font-weight: 800;
+    margin: 55px 0 22px 19px;
+}
+.container-contact-us p{
+    color: floralwhite;
+    font-size: 19px;
+}
+.phone-contact-us{
+    width: 70%;
+    height: 70px;
+    margin: auto;
+    text-align: center;
+    margin-top: 50px;
+}
+.phone{
+    text-align: left;
+    display: inline;
+    margin-right: 486px;
+}
+.gmail{
+    text-align: right;
+    display: inline;
+}
+.location-contact-us{
+    width: 70%;
+    height: 70px;
+    margin: auto;
+}
+.title-location{
+    display: inline;
+    margin-right: 489px;
+}
+.btn-contact{
+    display: inline;
+    color: rgb(0, 0, 0);
+    background-color: rgb(248, 249, 250);
+    border-color: rgb(248, 249, 250);
+    font-size: 17px;
+    padding: 13px;
+    border-radius: 10px;
+    border: none;
+}
+.sub-scrip{
+    display: inline;
+    background-color: initial;
+    border: 3px solid white;
+    padding: 10px;
+    text-align: -webkit-center;
+    font-size: 15px;
+}
+.btn-contact:hover{
+    background-color: rgb(220, 213, 213);
+}
+
